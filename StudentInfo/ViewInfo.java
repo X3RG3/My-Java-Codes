@@ -1,3 +1,4 @@
+ import java.lang.*;
  public class ViewInfo{
 	 public static void main(String[] args){
 		 Name n1=new Name();

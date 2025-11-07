@@ -1,3 +1,4 @@
+import java.lang.*;
 public class Department{
 	private String Dep;
 	public void setDEP(String Dep){

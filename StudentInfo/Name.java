@@ -1,3 +1,4 @@
+import java.lang.*;
 public class Name{
 	private String name;
 	public void setName(String name){

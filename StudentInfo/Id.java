@@ -1,3 +1,4 @@
+import java.lang.*;
 public class Id{
 	private int id;
 	public void setID(int id){
