@@ -5,7 +5,7 @@
 		 Department dep1 = new Department();
 		 Cgpa cgpa1 = new Cgpa();
 		 
-		 n1.setName("Ayon");
+		 n1.setName("Irfan");
 		 id1.setID(62274);
 		 dep1.setDEP("CSE");
 		 cgpa1.setCGPA(3.93f);
