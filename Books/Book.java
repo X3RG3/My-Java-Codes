@@ -3,12 +3,15 @@ public class Book{
 	private String author;
 	private double price;
 	
-	public Book(){}
+	public Book(){
+		System.out.println("Empty const. for Book.")
+	}
 	
-	public Book(String t,String a, double p){
-		this.title=t;
-		this.author=a;
-		this.price=p;
+	public Book(String title,String author, double price){
+		this.title=title;
+		this.author=author;
+		this.price=price;
+		System.out.println("Para const. for Books. ")
 	}
 	
 	public void display(){

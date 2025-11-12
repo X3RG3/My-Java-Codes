@@ -1,0 +1,14 @@
+public class EmployeeMain{
+	public static void main(String[] args){
+		Employee e1=new Employee("Irfan", 62274, "CEO", 250000,5);
+		Employee e2=new Employee();
+		Employee e3=new Employee("Ayon", 62273,"MD",230000,4);
+		Employee e4=new Employee();
+		
+		e1.Details();
+		e2.Details();
+		e3.Details();
+		e4.Details();
+		
+	}
+}
