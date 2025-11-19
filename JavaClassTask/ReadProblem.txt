@@ -1,0 +1,1 @@
+Create an Inheritance relationship with two child. Parent have 3 attributes and 2 attribute for each child. After that create 2 object for each child. Take user input for creating object.
