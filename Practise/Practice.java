@@ -12,5 +12,6 @@ public class Practice {
 		System.out.println(s.isEmpty());
 		System.out.println(s.compareTo(s2));
 		System.out.println(s.equals(s2));
+		System.out.println(s==s2);
 	}
 }
