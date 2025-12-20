@@ -3,12 +3,12 @@ public class Customer{
 	private Account[] account;
 	
 	public Customer(){
-		System.out.println("Empty Cons for customer ")
+		System.out.println("Empty Cons for customer ");
 	}
 	public Customer(String name, int size){
 		this.name=name;
-		acc = new Account[size];
-		System.out.println("Para cons for customer")
+		account = new Account[size];
+		System.out.println("Para cons for customer");
 	}
 	public void setName(String name){
 		this.name=name;

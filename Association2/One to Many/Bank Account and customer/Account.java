@@ -35,7 +35,7 @@ public class Account{
 			balance-=amnt;
 		}
 		else{
-			System.out.println("Bhai dekhi amar motoi gorib XD")
+			System.out.println("Bhai dekhi amar motoi gorib XD");
 		}
 	}
 	
