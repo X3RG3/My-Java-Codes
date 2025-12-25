@@ -19,7 +19,7 @@ public class FrameDemo extends JFrame
 		panel=new JPanel();
 		panel.setLayout(null);
 		
-		namelbl=new JLabel("Name");
+		/*namelbl=new JLabel("Name");
 		namelbl.setBounds(150,50,100,50);
 		panel.add(namelbl);
 		
@@ -47,7 +47,7 @@ public class FrameDemo extends JFrame
 		
 		backbtn=new JButton("Back");
 		backbtn.setBounds(380,250,100,50);
-		panel.add(backbtn);
+		panel.add(backbtn);*/
 		
 		this.add(panel);
 	}
