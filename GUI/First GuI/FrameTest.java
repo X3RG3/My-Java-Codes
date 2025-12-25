@@ -5,6 +5,7 @@ public class FrameTest extends JFrame{
 	JLabel namelbl,passlbl;
 	JTextField namefld;
 	JPasswordField passfld;
+	JButton loginbtn,signupbtn,backbtn;
 	
 	public FrameTest(){
 		super("MyFirstGUI");
@@ -32,6 +33,13 @@ public class FrameTest extends JFrame{
 		passfld.setEchoChar('#');
 		panel.add(passfld);
 		
+		loginbtn = new JButton("LogIn");
+		loginbtn.setBounds(50,250,100,50);
+		panel.add(loginbtn);
+		
+		signupbtn = new JButton("SignUp");
+		signupbtn.setBounds(200,250,100,50);
+		panel.add(signupbtn);
 		this.add(panel);
 	}
 }
