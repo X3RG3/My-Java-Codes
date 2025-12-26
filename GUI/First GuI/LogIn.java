@@ -10,7 +10,7 @@ public class LogIn extends JFrame{
 	JButton loginbtn,signupbtn,backbtn;
 	Font font;
 	
-	public FrameTest(){
+	public LogIn(){
 		super("MyFirstGUI");
 		this.setSize(600,400);
 		this.setLocationRelativeTo(null);
@@ -22,8 +22,7 @@ public class LogIn extends JFrame{
 		panel.setBackground(c1);
 		panel.setLayout(null);
 		
-		loginlbl = new JLabel("Log In");
-		loginlbl.setBounds()
+		
 		
 		namelbl = new JLabel("Name : ");
 		namelbl.setBounds(50,90,300,50);
