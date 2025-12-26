@@ -1,9 +1,9 @@
 import java.lang.*;
 public class Main{
 	public static void main(String[] args){
-		FrameTest f1 = new FrameTest();
+		LogIn L = new LogIn();
 		
-		f1.setVisible(true);
+		L.setVisible(true);
 	}
 	
 }
