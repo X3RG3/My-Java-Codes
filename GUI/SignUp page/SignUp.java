@@ -69,8 +69,12 @@ public class SignUp extends JFrame{
 		backbtn.setBackground(c2);
 		backbtn.setForeground(Color.WHITE);
 		panel.add(backbtn);
+		backbtn.addActionListener(e ->{
+			new LogIn();
+			this.dispose();
+		});
 		
-		
+		setVisible(true);
 		this.add(panel);
 	}
 }

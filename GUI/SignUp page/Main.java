@@ -1,7 +1,7 @@
 public class Main{
 	public static void main(String[] args){
-		SignUp Sup = new SignUp();
+		LogIn l = new LogIn();
 		
-		Sup.setVisible(true);
+		l.setVisible(true);
 	}
 }
