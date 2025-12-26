@@ -5,6 +5,7 @@ public class SignUp extends JFrame{
 	JLabel signup,namelbl,mblbl,passlbl;
 	JTextField namefld,mbfld;
 	JPasswordField passfld;
+	JButton signupbtn,backbtn;
 	public SignUp(){
 		super("Sign Up");
 		this.setSize(600,400);
@@ -54,9 +55,20 @@ public class SignUp extends JFrame{
 		passfld=new JPasswordField();
 		passfld.setBounds(150,220,400,50);
 		passfld.setBackground(c2);
-		passfld.setEchoChar('⁜');
+		passfld.setEchoChar('♡');
 		panel.add(passfld);
 		
+		signupbtn = new JButton("SignUp");
+		signupbtn.setBounds(200,300,100,50);
+		signupbtn.setBackground(c2);
+		signupbtn.setForeground(Color.WHITE);
+		panel.add(signupbtn);
+		
+		backbtn = new JButton("Back");
+		backbtn.setBounds(400,300,100,50);
+		backbtn.setBackground(c2);
+		backbtn.setForeground(Color.WHITE);
+		panel.add(backbtn);
 		
 		
 		this.add(panel);
