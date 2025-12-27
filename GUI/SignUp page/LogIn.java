@@ -45,7 +45,7 @@ public class LogIn extends JFrame{
 		
 		passfld = new JPasswordField();
 		passfld.setBounds(150,150,350,50);
-		passfld.setEchoChar('$');
+		passfld.setEchoChar('♡');
 		panel.add(passfld);
 		
 		loginbtn = new JButton("LogIn");
