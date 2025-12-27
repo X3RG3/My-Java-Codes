@@ -32,7 +32,6 @@ public class SignUp extends JFrame{
 		
 		namefld=new JTextField();
 		namefld.setBounds(150,80,400,50);
-		namefld.setBackground(c2);
 		panel.add(namefld);
 		
 		mblbl=new JLabel("Mobile : ");
@@ -43,7 +42,6 @@ public class SignUp extends JFrame{
 		
 		mbfld=new JTextField();
 		mbfld.setBounds(150,150,400,50);
-		mbfld.setBackground(c2);
 		panel.add(mbfld);
 		
 		passlbl=new JLabel("Password : ");
@@ -54,7 +52,6 @@ public class SignUp extends JFrame{
 		
 		passfld=new JPasswordField();
 		passfld.setBounds(150,220,400,50);
-		passfld.setBackground(c2);
 		passfld.setEchoChar('♡');
 		panel.add(passfld);
 		

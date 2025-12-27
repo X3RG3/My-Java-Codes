@@ -69,6 +69,10 @@ public class LogIn extends JFrame{
 		backbtn.setBackground(c2);
 		backbtn.setForeground(Color.WHITE);
 		panel.add(backbtn);
+		backbtn.addActionListener(e->{
+			new Welcome();
+			this.dispose();
+		});
 		
 		setVisible(true);
 		this.add(panel);
