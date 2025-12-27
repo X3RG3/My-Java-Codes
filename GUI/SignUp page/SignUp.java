@@ -73,5 +73,7 @@ public class SignUp extends JFrame{
 		
 		setVisible(true);
 		this.add(panel);
+
+		
 	}
 }
