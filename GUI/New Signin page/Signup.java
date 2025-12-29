@@ -64,7 +64,7 @@ public class Signup extends JFrame implements MouseListener,ActionListener{
 		backbtn.setBackground(c2);
 		panel.add(backbtn);
 		
-		simg = new ImageIcon("./SignupPage.png");
+		simg = new ImageIcon(Signup.class.getResource("SignupPage.png"));
 		imglbl=new JLabel(simg);
 		imglbl.setBounds(0,0,400,400);
 		panel.add(imglbl);
