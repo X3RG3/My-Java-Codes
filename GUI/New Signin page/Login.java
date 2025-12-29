@@ -19,8 +19,7 @@ public class Login extends JFrame implements MouseListener,ActionListener{
 		this.setSize(800,450);
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		Color c1 = new Color(222,226,255);
-		Color c2 = new Color(129,114,254);
+		
 		panel = new JPanel();
 		panel.setLayout(null);
 		panel.setBackground(c1);
