@@ -49,7 +49,7 @@ public class Signup extends JFrame implements MouseListener,ActionListener{
 		
 
 		sgnbtn = new JButton("Signup");
-		sgnbtn.setBounds(400,270,90,55);
+		sgnbtn.setBounds(400,270,145,50);
 		sgnbtn.setForeground(Color.WHITE);
 		sgnbtn.addMouseListener(this);
 		sgnbtn.addActionListener(this);
@@ -57,7 +57,7 @@ public class Signup extends JFrame implements MouseListener,ActionListener{
 		panel.add(sgnbtn);
 		
 		backbtn = new JButton("Back");
-		backbtn.setBounds(605,270,90,55);
+		backbtn.setBounds(555,270,145,50);
 		backbtn.setForeground(Color.WHITE);
 		backbtn.addMouseListener(this);
 		backbtn.addActionListener(this);
