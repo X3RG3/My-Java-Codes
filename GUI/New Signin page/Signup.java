@@ -95,13 +95,13 @@ public class Signup extends JFrame implements MouseListener,ActionListener{
 			sgnbtn.setForeground(Color.WHITE);
 		}
 		
-		else if(me.getSource()==backbtn){
+		else if(me.getSource()==backbtn ){
 			backbtn.setBackground(c2);
 			backbtn.setForeground(Color.WHITE);
 		}
 	}
 	public void actionPerformed(ActionEvent ae){
-		if(ae.getSource()==backbtn){
+		if(ae.getSource()==backbtn || ae.getSource()==sgnbtn){
 			this.setVisible(false);
 			Login l = new Login();
 			l.setVisible(true);
