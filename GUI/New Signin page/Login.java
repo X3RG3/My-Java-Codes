@@ -50,6 +50,7 @@ public class Login extends JFrame implements MouseListener,ActionListener{
 		lgnbtn.setBounds(400,270,90,55);
 		lgnbtn.setForeground(Color.WHITE);
 		lgnbtn.setBackground(c2);
+		lgnbtn.addActionListener(this);
 		lgnbtn.addMouseListener(this);
 		panel.add(lgnbtn);
 		
@@ -116,6 +117,11 @@ public class Login extends JFrame implements MouseListener,ActionListener{
 			this.setVisible(false);
 			Signup s = new Signup();
 			s.setVisible(true);
+		}
+		else if(ae.getSource()==lgnbtn){
+			this.setVisible(false);
+			FirstPage fp = new FirstPage();
+			fp.setVisible(true);
 		}
 	}
 }
