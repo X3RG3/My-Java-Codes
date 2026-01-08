@@ -10,6 +10,8 @@ public class Frame1 extends JFrame{
 	private JCheckBox cb1,cb2;
 	private ButtonGroup bg1;
 	private JComboBox cmbx;
+	private ImageIcon img1;
+	private JButton btn;
 	public Frame1(){
 		super("Frame 1");
 		this.setSize(900,560);
@@ -32,6 +34,13 @@ public class Frame1 extends JFrame{
 		
 		JTextArea textArea = new JTextArea("Baler Jibon",5, 20);
 		panel.add(textArea);
+		
+		img1 = new ImageIcon("Button.png");
+		
+		
+		btn = new JButton(img1);
+		btn.setBounds(400,400,150,50);
+		panel.add(btn);
 
 		
 		r1 = new JRadioButton("Male");
