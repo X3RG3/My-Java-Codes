@@ -13,6 +13,7 @@ public class Main{
 		Opp.insert(d4);
 		
 		Opp.delete(d2);
+		Opp.update(d3,7000);
 		
 		Opp.Details();
 	}
