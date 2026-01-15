@@ -4,6 +4,8 @@ import java.awt.event.*;
 public class Page extends JFrame implements MouseListener{
     private JPanel panel;
     private JButton btn;
+    private JLabel imglbl;
+    private ImageIcon img1;
     public Page(){
         super("This is a test page...!!");
         this.setSize(600,350);
@@ -18,6 +20,13 @@ public class Page extends JFrame implements MouseListener{
         btn.addMouseListener(this);
         panel.add(btn);
 
+        
+
+
+        img1 = new ImageIcon("./cons2.gif");
+        imglbl = new JLabel(img1);
+        imglbl.setBounds(0,0,600,50);
+        panel.add(imglbl);
         this.add(panel);
 
     }
