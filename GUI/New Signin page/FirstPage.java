@@ -16,7 +16,7 @@ public class FirstPage extends JFrame implements MouseListener,ActionListener{
 	Color c2 = new Color(129,114,254);
 	Color c3 = new Color(165,174,255);
 	 
-	public FirstPage(String s1,String s2,Login l){
+	public FirstPage(){
 		super("First Page");
 		this.setSize(800,450);
 		this.setLocationRelativeTo(null);
@@ -26,7 +26,7 @@ public class FirstPage extends JFrame implements MouseListener,ActionListener{
 		panel.setBackground(c1);
 		
 		f1 = new Font("Cambria",Font.PLAIN,22);
-		userlbl = new JLabel("User Name : "+s1);
+		userlbl = new JLabel("User Name : ");
 		userlbl.setBounds(400,50,250,50);
 		userlbl.setFont(f1);
 		//userlbl.setForeground(Color.WHITE);

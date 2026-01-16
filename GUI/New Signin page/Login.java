@@ -124,9 +124,7 @@ public class Login extends JFrame implements MouseListener,ActionListener{
 			fp.setVisible(true);
 		}
 	}
-	String s1 = namefld.getText();
-	String s2 = passfld.getText();
-	FirstPage f1 = new FirstPage(s1,s2,this);
+	
 	
 	
 }
