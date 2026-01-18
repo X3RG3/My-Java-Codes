@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3453348-c135-4b76-9354-b7483c6d7f39" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../GUI/New Signin page/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../GUI/New Signin page/Signup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Pacman/PacmanGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Snake Game/SnakeGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Snake Game/eat.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Snake Game/gameover.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Snake Game/snake_head.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Snake/SnakeGame$GamePanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Snake/SnakeGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Snake/SnakeGame.java" beforeDir="false" />
-    </list>
+    <list default="true" id="e3453348-c135-4b76-9354-b7483c6d7f39" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,16 +18,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/CodeFolders/My-Java-Codes/Association2/One to Many/Student and device (laptop and camera)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/CodeFolders/My-Java-Codes/Association2/One to Many/Student and device (laptop and camera)"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e3453348-c135-4b76-9354-b7483c6d7f39" name="Changes" comment="" />
